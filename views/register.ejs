@@ -1,0 +1,43 @@
+<div class="register-card">
+    <div class="register-logo">
+        <h2>Register</h2>
+    </div>
+    <form action="/users/register" method="POST">
+        <label>Name</label>
+        <br />
+        <input class="input-field"
+        placeholder="enter name"
+        type="text"
+        name="name"
+        />
+        <br />
+        <label>Email</label>
+        <br />
+        <input class="input-field"
+        placeholder="example@gmail.com"
+        type="text"
+        name="email"
+        />
+        <br />
+        <label>Password</label>
+        <br />
+        <input class="input-field"
+        placeholder="enter password"
+        type="text"
+        name="password"
+        />
+        <br />
+        <label>Conform Password</label>
+        <br />
+        <input class="input-field"
+        placeholder="enter conform password"
+        type="text"
+        name="conform_password"
+        />
+        <br />
+        <button class="register-page-btn">Register</button>
+        <div class="link-paragraph">
+            <p>Already have an account? <a href="/users/login">Login</a></p>
+        </div>
+    </form>
+</div>

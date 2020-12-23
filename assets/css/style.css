@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Sniglet&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Sniglet;
+  box-sizing: border-box;
+}
+
+/*=========== layout ============ */
+
+.main {
+  /* border: 1px solid palevioletred; */
+  padding: 5rem;
+  width: 100%;
+}
+
+.container {
+  margin: 0 auto;
+  width: 50%;
+  /* border: 2px dotted green; */
+}
+
+/* =========== card =============== */
+
+.card {
+  width: 100%;
+  /* border: 1px dotted goldenrod; */
+  text-align: center;
+  background-color: #f1f1f1;
+}
+.logo {
+  font-size: xx-large;
+  padding-top: 1rem;
+}
+.p-tag {
+  margin: 0.5rem 0;
+}
+.btn-tag {
+  margin: 0 auto;
+  padding-bottom: 1rem;
+  width: 95%;
+}
+a {
+  text-decoration: none;
+  color: whitesmoke;
+  transition: 0.6s ease;
+}
+a:hover {
+  color: #0c0c0c;
+}
+
+.btn-login {
+  border: none;
+  width: 100%;
+  background-color: rgb(253, 87, 87);
+  color: whitesmoke;
+  padding: 0.5rem;
+  transition: 0.6s ease;
+}
+.btn-login:hover {
+  background-color: rgb(248, 171, 171);
+  color: #0c0c0c;
+}
+.btn-register {
+  border: none;
+  width: 100%;
+  background-color: gray;
+  color: whitesmoke;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  transition: 0.6s ease;
+}
+.btn-register:hover {
+  background-color: rgb(184, 183, 183);
+  color: #0c0c0c;
+}
+
+/* =============register============ */
+
+.register-card {
+  width: 100%;
+  /* border: 1px dotted goldenrod; */
+  background-color: #f1f1f1;
+}
+.register-logo h2 {
+  text-align: center;
+  padding: 1rem 0;
+}
+form {
+  /* border: 3px dotted navy; */
+  margin: 0 auto;
+  width: 90%;
+  padding-bottom: 1rem;
+}
+.input-field {
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  width: 100%;
+}
+.register-page-btn {
+  width: 100%;
+  border: none;
+  background-color: rgb(253, 87, 87);
+  color: whitesmoke;
+  padding: 0.5rem;
+  transition: 0.6s ease;
+}
+.register-page-btn:hover {
+  background-color: rgb(248, 171, 171);
+  color: #0c0c0c;
+}
+.link-paragraph {
+  margin-top: 1rem;
+}
+.link-paragraph a {
+  color: blue;
+}
+.link-paragraph a:hover {
+  text-decoration: underline;
+}
